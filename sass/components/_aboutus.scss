@@ -19,15 +19,15 @@
     margin: 0;
   }
 }
-.aboutus__item {
+&__item {
   flex-basis: calc((100% - 2 * 30px) / 3);
 }
-.aboutus__img {
+&__img {
   position: relative;
   width: 370px;
   height: 294px;
 }
-.aboutus__label {
+&__label {
   width: 370px;
   height: 70px;
   color: $secondaryColor;

@@ -6,23 +6,23 @@
   margin: 0 auto;
 }
 
-.our-clients__overlay {
+&_overlay {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
 }
-.our-clients__headline {
+&__headline {
   margin-top: 0;
   margin-bottom: 50px;
 }
 
-.our-clients__list {
+&__list {
   display: flex;
   gap: 30px;
   margin: 0;
 }
-.our-clients__item {
+&_item {
   fill: $colorFiller;
   width: 170px;
   border-radius: 4px;

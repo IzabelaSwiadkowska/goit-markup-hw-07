@@ -4,21 +4,21 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-.ourteam__delay {
+&__delay {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
 }
 
-.ourteam__list {
+&__list {
   display: flex;
   width: 1170px;
   gap: 30px;
   margin: 0;
 }
 
-.ourteam__item {
+&__item {
   display: flex;
   flex-basis: calc((100% - 3 * 30px) / 4);
   flex-wrap: wrap;
@@ -29,17 +29,17 @@
   background-color: $secondaryColor;
 }
 
-.ourteam__headline {
+&__headline {
   width: 209px;
   margin-bottom: 50px;
 }
-.ourteam__name {
+&__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
   margin: 30px 99px 10px 99px;
 }
-.ourteam__position {
+&__position {
   color: $alternativeColor;
   font-size: 16px;
   line-height: 1.17;
