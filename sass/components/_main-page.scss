@@ -1,10 +1,3 @@
-.main-page__overlay {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin: 0 auto;
-}
-
 .main-page {
   background-color: $secondaryBackgroundColor;
   background-image: linear-gradient(
@@ -42,4 +35,10 @@
     margin-bottom: 200px;
     padding: 10px 41px 10px 42px;
   }
+}
+&__overlay {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
 }

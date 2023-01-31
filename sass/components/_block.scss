@@ -1,8 +1,3 @@
-.block__delay {
-  width: 1170px;
-  display: flex;
-  margin: 0 auto;
-}
 .block {
   padding-bottom: 0;
   &__list {
@@ -14,7 +9,11 @@
     width: 270px;
   }
 }
-
+&_delay {
+  width: 1170px;
+  display: flex;
+  margin: 0 auto;
+}
 .attribute {
   display: flex;
   width: 270px;

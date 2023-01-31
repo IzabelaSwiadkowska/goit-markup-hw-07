@@ -2,6 +2,23 @@
   border-bottom: 1px solid #ececec;
   background-color: $secondaryColor;
 }
+&_overlay {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+  height: 80px;
+}
+&__logo {
+  color: $logoMainColor;
+  font-family: $alternativeFontFamily;
+  &:hover,
+  &:focus {
+    color: $logoWebColor;
+  }
+}
 .navigation {
   display: flex;
   flex: 1;
@@ -41,24 +58,6 @@
 }
 &__link--underscore2::after {
   @include underscoreAfterMixin(58px);
-}
-
-.page-header__overlay {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  justify-content: space-between;
-  height: 80px;
-}
-&__logo {
-  color: $logoMainColor;
-  font-family: $alternativeFontFamily;
-  &:hover,
-  &:focus {
-    color: $logoWebColor;
-  }
 }
 
 @mixin underscoreAfterMixin($width) {
