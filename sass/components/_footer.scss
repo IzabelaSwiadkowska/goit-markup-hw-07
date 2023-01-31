@@ -30,7 +30,7 @@
 &:first-child {
   padding-bottom: 20px;
 }
-.footer__link {
+&__link {
   color: $secondaryColor;
   text-decoration: none;
   font-family: $fontFamily;
