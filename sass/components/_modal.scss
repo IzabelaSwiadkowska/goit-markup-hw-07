@@ -35,24 +35,25 @@
   flex-direction: column;
   justify-content: center;
   padding: 40px;
-  &__label {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.01em;
-    color: var(--alternative-color);
-    margin-top: 10px;
-  }
 }
-&__label--name {
+.form-group__label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: var(--alternative-color);
+  margin-top: 10px;
+}
+
+.form-group__label--name {
   margin-top: 12px;
   position: relative;
 }
 
-&__icon {
+.form-group__icon {
   margin: 11px 12px;
 }
-&__input {
+.form-group__input {
   border-radius: 4px;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -62,7 +63,7 @@
   width: 100%;
 }
 
-&__btn {
+.form-group__btn {
   width: 200px;
   height: 50px;
   margin: 30px auto;
@@ -86,7 +87,7 @@
   }
 }
 
-&_grid {
+.form-group__grid {
   display: flex;
   width: 100%;
   height: 40px;
@@ -108,15 +109,15 @@
     }
   }
 }
-&__grid:hover,
-&__grid:focus {
+.form-group__grid:hover,
+.form-group__grid:focus {
   border: 1px solid $logoWebColor;
   border-radius: 4px;
   & svg {
     fill: $logoWebColor;
   }
 }
-&__grid:has(input:focus) {
+.form-group__grid:has(input:focus) {
   border: 1px solid $logoWebColor;
   border-radius: 4px;
   & svg {
@@ -135,7 +136,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
-&__icon {
+.close__icon {
   position: absolute;
   left: 22.23%;
   top: 16.67%;
@@ -165,7 +166,7 @@
   letter-spacing: 0.03em;
   color: $logoWebColor;
 }
-&__text {
+.check__text {
   width: 100%;
   font-weight: 400;
   font-size: 14px;
@@ -175,7 +176,7 @@
   cursor: pointer;
 }
 
-&__grid {
+.check__grid {
   width: 100%;
   display: flex;
   margin-top: 20px;
@@ -183,7 +184,7 @@
   gap: 8px;
 }
 
-&__icon {
+.check__icon {
   margin-top: 5px;
   margin-left: -21px;
 }
